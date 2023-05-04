@@ -9,19 +9,24 @@ Para instalar e executar o Airflow, siga os seguintes passos:
 
 # 1- Clone este repositório em sua máquina local.
 ```
-git clone git@bitbucket.org:indiciumtech/airflow_tooltorial.git 
-cd airflow_tooltorial
+git clone https://gilbertosantos22@bitbucket.org/indiciumtech/gilberto_airflow_tooltorial.git
+
 ```
 
-Acesse a pasta do projeto:
+# 2- Acesse a pasta do projeto:
+```
+cd gilberto_airflow_tooltorial
+```
 
-cd airflow_challenge_carolina
-Crie um ambiente virtual.
-
+# 3 - Crie um ambiente virtual.
+```
 virtualenv venv -p python3
 Ative o ambiente virtual:
-
+```
+# 4 - Ativando o ambiente virtual
+```
 source venv/bin/activate
+```
 Instale as dependências do projeto:
 
 pip install -r requirements.txt
