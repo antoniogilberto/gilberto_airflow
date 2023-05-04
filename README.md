@@ -1,4 +1,4 @@
-# Desafio Airflow V
+# Desafio Airflow 
 
 Este repositório contém uma solução para um desafio de conhecimentos básicos sobre Orquestração de Dados em Airflow. O objetivo é extrair dados de uma tabela em um banco de dados SQLite, fazer uma junção com outra tabela, calcular a soma de uma coluna com base em uma condição e exportar o resultado final.
 
