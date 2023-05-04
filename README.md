@@ -4,8 +4,7 @@ Este repositório contém uma solução para um desafio de conhecimentos básico
 
 # Instalação
 
-As instruções fornecidas neste arquivo foram testadas e funcionam corretamente no sistema operacional Ubuntu. Se você estiver usando um sistema operacional diferente, pode ser necessário fazer ajustes nas instruções para garantir a compatibilidade.
-Para instalar e executar o Airflow, siga os seguintes passos:
+As instruções fornecidas neste arquivo foram testadas e funcionam corretamente no sistema operacional Ubuntu.
 
 1- Clone este repositório em sua máquina local
 ```
