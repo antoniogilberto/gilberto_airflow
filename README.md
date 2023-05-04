@@ -62,7 +62,7 @@ Verifique o arquivo final_output.txt para obter o resultado final.
 
 # Arquivos
 
-```install.sh:``` script que instala o Airflow e cria o banco de dados.
+```install.sh:``` script que instala o Airflow e cria o banco de dados.<br>
 ```requirements.txt:``` arquivo que contém as dependências do projeto.
 ```/data/northwind_small.sqlite:``` banco de dados SQLite utilizado no desafio.
 ```/airflow-data/dags/airflow_challenge.py:``` arquivo Python que define a DAG.
