@@ -7,39 +7,44 @@ Este repositório contém uma solução para um desafio de conhecimentos básico
 As instruções fornecidas neste arquivo foram testadas e funcionam corretamente no sistema operacional Ubuntu. Se você estiver usando um sistema operacional diferente, pode ser necessário fazer ajustes nas instruções para garantir a compatibilidade.
 Para instalar e executar o Airflow, siga os seguintes passos:
 
-# 1- Clone este repositório em sua máquina local.
+# 1- Clone este repositório em sua máquina local
 ```
 git clone https://gilbertosantos22@bitbucket.org/indiciumtech/gilberto_airflow_tooltorial.git
 
 ```
 
-# 2- Acesse a pasta do projeto:
+# 2- Acesse a pasta do projeto
 ```
 cd gilberto_airflow_tooltorial
 ```
 
-# 3 - Crie um ambiente virtual.
+# 3 - Crie um ambiente virtual
 ```
 virtualenv venv -p python3
-Ative o ambiente virtual:
 ```
 # 4 - Ativando o ambiente virtual
 ```
 source venv/bin/activate
 ```
-Instale as dependências do projeto:
-
+# 5 - Instale as dependências do projeto
+```
 pip install -r requirements.txt
-Execute o script de instalação do Airflow:
-
+```
+# 6 - Execute o script de instalação do Airflow
+```
 bash install.sh
-Inicie o Airflow.
-
+```
+# 7 Vamor inicar o airflow
+```
 airflow standalone
-Acesse o Airflow em seu navegador através do endereço 'http://localhost:8080' e verifique se a interface está funcionando corretamente.
+```
+Para acessar o Airflow, abra seu navegador e digite o endereço 'http://localhost:8080' na barra de endereço.
 
-Como usar
-Crie uma conexão com a base de dados SQLite. Para isso, acesse a interface do Airflow e vá em Admin > Connections. Clique em "Create" e preencha os campos conforme as informações abaixo:
+
+Instruções de uso:
+```
+Crie uma conexão com a base de dados SQLite: acesse a interface do Airflow e vá em "Admin > Connections". Em seguida, clique em "Create" e preencha os campos conforme as informações abaixo:
+
 Conn Id: sqlite
 Conn Type: SQLite
 Host: /path/to/northwind_small.sqlite (substitua pelo caminho completo para o arquivo northwind_small.sqlite em sua máquina)
@@ -53,6 +58,7 @@ Ative o DAG "DesafioAirflow" na interface do Airflow. Ele deve estar na aba "DAG
 Execute o DAG clicando em "Trigger DAG" na interface do Airflow.
 
 Verifique o arquivo final_output.txt para obter o resultado final.
+```
 
 Arquivos
 install.sh: script que instala o Airflow e cria o banco de dados.
