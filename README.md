@@ -7,38 +7,38 @@ Este repositório contém uma solução para um desafio de conhecimentos básico
 As instruções fornecidas neste arquivo foram testadas e funcionam corretamente no sistema operacional Ubuntu. Se você estiver usando um sistema operacional diferente, pode ser necessário fazer ajustes nas instruções para garantir a compatibilidade.
 Para instalar e executar o Airflow, siga os seguintes passos:
 
-# 1- Clone este repositório em sua máquina local
+1- Clone este repositório em sua máquina local
 ```
 git clone https://gilbertosantos22@bitbucket.org/indiciumtech/gilberto_airflow_tooltorial.git
 
 ```
 
-# 2- Acesse a pasta do projeto
+2- Acesse a pasta do projeto
 ```
 cd gilberto_airflow_tooltorial
 ```
 
-# 3 - Crie um ambiente virtual
+3 - Crie um ambiente virtual
 ```
 virtualenv venv -p python3
 ```
-# 4 - Ativando o ambiente virtual
+4 - Ativando o ambiente virtual
 ```
 source venv/bin/activate
 ```
-# 5 - Instale as dependências do projeto
+5 - Instale as dependências do projeto
 ```
 pip install -r requirements.txt
 ```
-# 6 - Execute o script de instalação do Airflow
+6 - Execute o script de instalação do Airflow
 ```
 bash install.sh
 ```
-# 7 Vamor inicar o airflow
+7 Vamor inicar o airflow
 ```
 airflow standalone
 ```
-# - Para acessar o Airflow, abra seu navegador e digite o endereço 'http://localhost:8080' na barra de endereço.
+Para acessar o Airflow, abra seu navegador e digite o endereço 'http://localhost:8080' na barra de endereço.
 
 
 Instruções de uso:
