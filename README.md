@@ -7,7 +7,11 @@ Este repositório contém uma solução para um desafio de conhecimentos básico
 As instruções fornecidas neste arquivo foram testadas e funcionam corretamente no sistema operacional Ubuntu. Se você estiver usando um sistema operacional diferente, pode ser necessário fazer ajustes nas instruções para garantir a compatibilidade.
 Para instalar e executar o Airflow, siga os seguintes passos:
 
-Clone este repositório em sua máquina local.
+# 1- Clone este repositório em sua máquina local.
+```
+git clone git@bitbucket.org:indiciumtech/airflow_tooltorial.git 
+cd airflow_tooltorial
+```
 
 Acesse a pasta do projeto:
 
