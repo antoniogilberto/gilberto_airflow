@@ -38,7 +38,7 @@ bash install.sh
 ```
 airflow standalone
 ```
-Para acessar o Airflow, abra seu navegador e digite o endereço 'http://localhost:8080' na barra de endereço.
+# - Para acessar o Airflow, abra seu navegador e digite o endereço 'http://localhost:8080' na barra de endereço.
 
 
 Instruções de uso:
@@ -60,10 +60,12 @@ Execute o DAG clicando em "Trigger DAG" na interface do Airflow.
 Verifique o arquivo final_output.txt para obter o resultado final.
 ```
 
-Arquivos
+# Arquivos
+```
 install.sh: script que instala o Airflow e cria o banco de dados.
 requirements.txt: arquivo que contém as dependências do projeto.
 /data/northwind_small.sqlite: banco de dados SQLite utilizado no desafio.
 /airflow-data/dags/airflow_challenge.py: arquivo Python que define a DAG.
 /airflow-data/dags/extract_and_count.py: arquivo Python com as funções utilizadas na DAG.
 final_output.txt: arquivo de saída gerado pelo DAG contendo o resultado final.
+```
